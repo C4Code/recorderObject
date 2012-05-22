@@ -23,10 +23,6 @@
 		ED6DDC15156AAEF4004D4F66 /* C4AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6DDC14156AAEF4004D4F66 /* C4AppDelegate.m */; };
 		ED6DDC17156AAEF4004D4F66 /* C4WorkSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6DDC16156AAEF4004D4F66 /* C4WorkSpace.m */; };
 		ED6DDC39156AAEF4004D4F66 /* libC4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6DDC38156AAEF4004D4F66 /* libC4.a */; };
-		ED6DDC3C156AAEF4004D4F66 /* C4Loop.aif in Resources */ = {isa = PBXBuildFile; fileRef = ED6DDC3B156AAEF4004D4F66 /* C4Loop.aif */; };
-		ED6DDC3E156AAEF4004D4F66 /* C4Sky.png in Resources */ = {isa = PBXBuildFile; fileRef = ED6DDC3D156AAEF4004D4F66 /* C4Sky.png */; };
-		ED6DDC40156AAEF4004D4F66 /* C4Table.png in Resources */ = {isa = PBXBuildFile; fileRef = ED6DDC3F156AAEF4004D4F66 /* C4Table.png */; };
-		ED6DDC42156AAEF5004D4F66 /* inception.mov in Resources */ = {isa = PBXBuildFile; fileRef = ED6DDC41156AAEF5004D4F66 /* inception.mov */; };
 		ED6DDC45156AAEF5004D4F66 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = ED6DDC44156AAEF5004D4F66 /* iTunesArtwork.png */; };
 		ED6DDC48156AAEF5004D4F66 /* C4Canvas.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED6DDC46156AAEF5004D4F66 /* C4Canvas.xib */; };
 		ED6DDC4A156AAEF5004D4F66 /* C4LogoiPad-01.png in Resources */ = {isa = PBXBuildFile; fileRef = ED6DDC49156AAEF5004D4F66 /* C4LogoiPad-01.png */; };
@@ -101,10 +97,6 @@
 		ED6DDC36156AAEF4004D4F66 /* C4Window.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Window.h; path = Headers/C4Window.h; sourceTree = "<group>"; };
 		ED6DDC37156AAEF4004D4F66 /* UITouch+C4Touch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UITouch+C4Touch.h"; path = "Headers/UITouch+C4Touch.h"; sourceTree = "<group>"; };
 		ED6DDC38156AAEF4004D4F66 /* libC4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libC4.a; path = Library/libC4.a; sourceTree = "<group>"; };
-		ED6DDC3B156AAEF4004D4F66 /* C4Loop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = C4Loop.aif; path = Media/C4Loop.aif; sourceTree = "<group>"; };
-		ED6DDC3D156AAEF4004D4F66 /* C4Sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C4Sky.png; path = Media/C4Sky.png; sourceTree = "<group>"; };
-		ED6DDC3F156AAEF4004D4F66 /* C4Table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C4Table.png; path = Media/C4Table.png; sourceTree = "<group>"; };
-		ED6DDC41156AAEF5004D4F66 /* inception.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = inception.mov; path = Media/inception.mov; sourceTree = "<group>"; };
 		ED6DDC44156AAEF5004D4F66 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = Logos/iTunesArtwork.png; sourceTree = "<group>"; };
 		ED6DDC47156AAEF5004D4F66 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/C4Canvas.xib; sourceTree = "<group>"; };
 		ED6DDC49156AAEF5004D4F66 /* C4LogoiPad-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4LogoiPad-01.png"; path = "Logos/C4LogoiPad-01.png"; sourceTree = "<group>"; };
@@ -202,7 +194,6 @@
 				ED6DDC6C156AAF15004D4F66 /* MeteringSample.h */,
 				ED6DDC6D156AAF15004D4F66 /* MeteringSample.m */,
 				ED6DDC18156AAEF4004D4F66 /* Framework */,
-				ED6DDC3A156AAEF4004D4F66 /* Media */,
 				ED6DDC43156AAEF5004D4F66 /* Logos */,
 				ED6DDC0A156AAEF4004D4F66 /* Supporting Files */,
 			);
@@ -260,17 +251,6 @@
 				ED6DDC38156AAEF4004D4F66 /* libC4.a */,
 			);
 			name = Framework;
-			sourceTree = "<group>";
-		};
-		ED6DDC3A156AAEF4004D4F66 /* Media */ = {
-			isa = PBXGroup;
-			children = (
-				ED6DDC3B156AAEF4004D4F66 /* C4Loop.aif */,
-				ED6DDC3D156AAEF4004D4F66 /* C4Sky.png */,
-				ED6DDC3F156AAEF4004D4F66 /* C4Table.png */,
-				ED6DDC41156AAEF5004D4F66 /* inception.mov */,
-			);
-			name = Media;
 			sourceTree = "<group>";
 		};
 		ED6DDC43156AAEF5004D4F66 /* Logos */ = {
@@ -346,10 +326,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED6DDC0E156AAEF4004D4F66 /* InfoPlist.strings in Resources */,
-				ED6DDC3C156AAEF4004D4F66 /* C4Loop.aif in Resources */,
-				ED6DDC3E156AAEF4004D4F66 /* C4Sky.png in Resources */,
-				ED6DDC40156AAEF4004D4F66 /* C4Table.png in Resources */,
-				ED6DDC42156AAEF5004D4F66 /* inception.mov in Resources */,
 				ED6DDC45156AAEF5004D4F66 /* iTunesArtwork.png in Resources */,
 				ED6DDC48156AAEF5004D4F66 /* C4Canvas.xib in Resources */,
 				ED6DDC4A156AAEF5004D4F66 /* C4LogoiPad-01.png in Resources */,
@@ -503,6 +479,7 @@
 				ED6DDC67156AAEF5004D4F66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
